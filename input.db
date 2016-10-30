@@ -1,0 +1,22 @@
+#############################
+## <Test_site> in <Region> ##
+#############################
+
+<Region>/<Test_site>;<test_site>-sw01;10.10.10.1;exos
+<Region>/<Test_site>;<test_site>-sw02;10.10.10.2;exos
+
+<Region>/<Test_site>;<test_site>-sr01;10.10.10.3;junos
+<Region>/<Test_site>;<test_site>-sr02;10.10.10.4;junos
+
+<Region>/<Test_site>;<test_site>-fw01;10.10.10.5;seos
+<Region>/<Test_site>;<test_site>-fw02;10.10.10.6;seos
+
+<Region>/<Test_site>;<test_site>-fw01;10.10.10.7;screenos
+<Region>/<Test_site>;<test_site>-fw02;10.10.10.8;screenos
+
+#############
+## PS Core ##
+#############
+
+<Region>/<Test_site>;<test_site>-sgsn01;10.10.20.1;sgsn-mme
+<Region>/<Test_site>;<test_site>-ggsn01;10.10.30.1;junos-epg
